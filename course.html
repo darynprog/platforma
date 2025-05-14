@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="imgg/daryn.png">
+        <title>Daryn | Prog</title>
+    </head>
+    
+    <body>
+    
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <a href="#" class="logo">
+                <i class='bx bx-code-alt'></i>
+                <div class="logo-name"><span>Daryn</span>Prog</div>
+            </a>
+            <ul class="side-menu">
+                <li><a href="glavny.html"><i class='bx bxs-dashboard'></i>Басты бет</a></li>
+                <li class="active"><a href="course.html"><i class='bx bx-store-alt'></i>Курстар</a></li>
+                <li><a href="#"><i class='bx bx-message-square-dots'></i>Тесттер</a></li>
+                <li><a href="#"><i class='bx bx-group'></i>Пайдаланушылар</a></li>
+                <li><a href="#"><i class='bx bx-cog'></i>Баптау</a></li>
+            </ul>
+            <ul class="side-menu">
+                <li>
+                    <a href="https://darynprog.github.io/infotest/" class="Шығу">
+                        <i class='bx bx-log-out-circle'></i>
+                        Шығу
+                    </a>
+                </li>
+            </ul>
+            <ul><br><br><br>
+                <li align="center">
+                    <p style="font-size:12px;" align="center">© 2025 DarynProg. Барлық құқықтар қорғалған. </p>
+                </li>
+            </ul>
+        </div>
+        <!-- End of Sidebar -->
+    
+        <!-- Main Content -->
+        <div class="content">
+            <!-- Navbar -->
+            <nav>
+                <i class='bx bx-menu'></i>
+                <form action="#">
+                    <div class="form-input">
+                        <input type="search" placeholder="Іздеу...">
+                        <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
+                    </div>
+                </form>
+                <input type="checkbox" id="theme-toggle" hidden>
+                
+                <a href="#" class="notif">
+                    <i class='bx bx-bell'></i>
+                    
+               </a>
+                <a href="#" class="profile">
+                    <img src="imgg/iconnn.png">
+                </a>
+            </nav>
+
+            <main>
+                <div id="course-container">
+
+                    <p style="color:rgb(36, 35, 35)"> 
+                        <h2> <b>Daryn<b style="color:#1976D2">Prog</b> </h2>платформасындағы курстар тізімі:   </p> 
+                </div>
+            </main><hr><br>
+        <div class="course-container">
+            <ul class="course-list">
+                    <a href="index.html" >
+                        <li class="course-item"> <h3> Информатика мұғалімдерге  арналған курс</h3><br><span>30  сабақ</span>
+                            <br><br><br><button class="course-btn" onclick="buyAllCourses()"> 
+                            <b>Сатып алу</b></button>
+                        </li>
+                    </a>
+                    <!-- <button class="course-btn" onclick="buyCourse('course1')">Бірінші тақырыпты сатып алу</button>  -->
+            </ul>
+            <ul class="course-list">
+                    <a href="#" >
+                        <li class="course-item"> <h3> Информатика оқушыларға  арналған курс</h3><br><span>50  сабақ</span>
+                            <br><br><br><button class="course-btn"><!-- onclick="buyAllCourses()" -->
+                            <b>Сатып алу</b></button>
+                        </li>
+                    </a>
+                    <!-- <button class="course-btn" onclick="buyCourse('course1')">Бірінші тақырыпты сатып алу</button>  -->
+            </ul>
+            <ul class="course-list">
+                    <a href="#" >
+                        <li class="course-item"> <h3> Математика оқушыларға  арналған курс</h3><br><span>50  сабақ</span>
+                            <br><br><br><button class="course-btn"><!-- onclick="buyAllCourses()" -->
+                            <b>Сатып алу</b></button>
+                        </li>
+                    </a>
+                    <!-- <button class="course-btn" onclick="buyCourse('course1')">Бірінші тақырыпты сатып алу</button>  -->
+            </ul>
+            <ul class="course-list">
+                    <a href="#" >
+                        <li class="course-item"> <h3> Қазақстан тарихы оқушыларға  арналған курс</h3><br><span>50  сабақ</span>
+                            <br><br><br><button class="course-btn"><!-- onclick="buyAllCourses()" -->
+                            <b>Сатып алу</b></button>
+                        </li>
+                    </a>
+                    <!-- <button class="course-btn" onclick="buyCourse('course1')">Бірінші тақырыпты сатып алу</button>  -->
+            </ul>
+            
+        </div>
+            <script src="index.js"></script>
+</body>
+</html>

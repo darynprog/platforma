@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imgg/daryn.png">
+    <title>Daryn | Prog</title>
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="#" class="logo">
+            <i class='bx bx-code-alt'></i>
+            <div class="logo-name"><span>Daryn</span>Prog</div>
+        </a>
+        <ul class="side-menu">
+            <li><a href="glavny.html"><i class='bx bxs-dashboard'></i>Басты бет</a></li>
+            <li class="active"><a href="course.html"><i class='bx bx-store-alt'></i>Курстар</a></li>
+            <li><a href="#"><i class='bx bx-message-square-dots'></i>Тесттер</a></li>
+            <li><a href="#"><i class='bx bx-group'></i>Пайдаланушылар</a></li>
+            <li><a href="#"><i class='bx bx-cog'></i>Баптау</a></li>
+        </ul>
+        <ul class="side-menu">
+            <li>
+                <a href="https://darynprog.github.io/infotest/" class="Шығу">
+                    <i class='bx bx-log-out-circle'></i>
+                    Шығу
+                </a>
+            </li>
+        </ul>
+        <ul><br><br><br>
+            <li align="center">
+                <p style="font-size:12px;" align="center">© 2025 DarynProg. Барлық құқықтар қорғалған. </p>
+            </li>
+        </ul>
+    </div>
+    <!-- End of Sidebar -->
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Navbar -->
+        <nav>
+            <i class='bx bx-menu'></i>
+            <form action="#">
+                <div class="form-input">
+                    <input type="search" placeholder="Іздеу...">
+                    <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
+                </div>
+            </form>
+            <input type="checkbox" id="theme-toggle" hidden>
+            
+            <a href="#" class="notif">
+                <i class='bx bx-bell'></i>
+                
+            </a>
+            <a href="#" class="profile">
+                <img src="imgg/iconnn.png">
+            </a>
+        </nav>
+
+        <!-- End of Navbar -->
+
+        <main>
+            <div class="header">
+                <div class="left">
+                    <h1>Курстар бөлімі</h1><br>
+                    <ul class="breadcrumb">
+                        <a href="course.html">
+                                <li>
+
+                               <b>Курстар </b>
+                            </li>
+                            </a>
+                        <b> / </b>
+                        <li><a href="#" class="active">Информатика мұғалімдерге арналған курс</a></li>
+                        
+
+                    </ul>
+                </div>
+                
+            </div><br><hr>
+<!-- осы жерден басталады -->
+
+<br>
+<h1 style="color:#1370e2;">Информатика мұғалімдерге арналған курс</h1>
+<div class="course-list-wrapper">
+    <ul class="course-list">
+        <li id="course1" class="course-item locked" onclick="openCourse(false)">
+            <div class="course-info">
+              1. Ақпараттық процестер 🔒
+              <span class="subtext">3 сабақ</span>
+            </div>
+            <div class="toggle-icon" onclick="toggleLessons(event, 'lessons1')">▼</div>
+        </li>
+        <ul id="lessons1" class="lesson-list" style="display: none;">
+          <li class="lesson-item">1-сабақ: Санау жүйелері </li>
+          <li class="lesson-item">2-сабақ: Ақпаратты кодтау </li>
+          <li class="lesson-item">3-сабақ: Ақпараттық өлшеу </li>
+        </ul>
+        <li id="course2"  class="course-item locked" onclick="openCourse(false)">
+            <div class="course-info">
+                2. Компьютерлік жүйелер 🔒
+              <span class="subtext">3 сабақ</span>
+            </div>
+            <div class="toggle-icon" onclick="toggleLessons(event, 'lessons2')">▼</div>
+          </li>
+        <ul id="lessons2" class="lesson-list">
+            <li class="lesson-item">1-сабақ: Есептеу техникасының дамуы</li>
+            <li class="lesson-item">2-сабақ: Компьютердің қызметі</li>
+            <li class="lesson-item">3-сабақ: Компьютерлік графика</li>
+        </ul>
+        <li id="course3"  class="course-item locked" onclick="openCourse(false)">
+            <div class="course-info">
+                3. Логикалық операциялар 🔒
+              <span class="subtext">2 сабақ</span>
+            </div>
+            <div class="toggle-icon" onclick="toggleLessons(event, 'lessons3')">▼</div>
+          </li>
+        <ul id="lessons3" class="lesson-list">
+            <li class="lesson-item">1-сабақ: Логикалық операциялар</li>
+            <li class="lesson-item">2-сабақ: Ақиқат кестесі</li>
+        </ul>
+        <li id="course4"  class="course-item locked" onclick="openCourse(false)">
+            <div class="course-info">
+                4. Компьютерлік желілер 🔒
+              <span class="subtext">4 сабақ</span>
+            </div>
+            <div class="toggle-icon" onclick="toggleLessons(event, 'lessons4')">▼</div>
+          </li>
+        <ul id="lessons4" class="lesson-list">
+            <li class="lesson-item">1-сабақ: Компьютерлік желілердің жіктелу</li>
+            <li class="lesson-item">2-сабақ: IP адрес</li>
+            <li class="lesson-item">3-сабақ: DNS домен</li>
+            <li class="lesson-item">4-сабақ: Ақпараттық қауіпсіздік</li>
+          </ul>
+        <li id="course5"  class="course-item locked" onclick="openCourse(false)">
+            <div class="course-info">
+                5. Excel 🔒
+              <span class="subtext">2 сабақ</span>
+            </div>
+            <div class="toggle-icon" onclick="toggleLessons(event, 'lessons5')">▼</div>
+          </li>
+        <ul id="lessons5" class="lesson-list">
+            <li class="lesson-item">1-сабақ: Элементтерді пішімдеу</li>
+            <li class="lesson-item">2-сабақ: Электронды кестелерді модельдеу</li>
+        </ul>
+        <li id="course6"  class="course-item locked" onclick="openCourse(false)">
+            <div class="course-info">
+                6. SQL 🔒
+              <span class="subtext">3 сабақ</span>
+            </div>
+            <div class="toggle-icon" onclick="toggleLessons(event, 'lessons6')">▼</div>
+          </li>
+        <ul id="lessons6" class="lesson-list">
+            <li class="lesson-item">1-сабақ: Мәліметтер қорын құру</li>
+            <li class="lesson-item">2-сабақ: Реляциялық деректер қоры</li>
+            <li class="lesson-item">3-сабақ: Мәліметтерді іздеу,сұрыптау және сүзу</li>
+        </ul>
+        <li id="course7"  class="course-item locked" onclick="openCourse(false)">
+            <div class="course-info">
+                7. Web жобалау 🔒
+              <span class="subtext">2 сабақ</span>
+            </div>
+            <div class="toggle-icon" onclick="toggleLessons(event, 'lessons7')">▼</div>
+          </li>
+        <ul id="lessons7" class="lesson-list">
+            <li class="lesson-item">1-сабақ: HTML</li>
+            <li class="lesson-item">2-сабақ:  CSS</li>
+        </ul>
+        <li id="course8"  class="course-item locked" onclick="openCourse(false)">
+            <div class="course-info">
+                8. Python 🔒
+              <span class="subtext">5 сабақ</span>
+            </div>
+            <div class="toggle-icon" onclick="toggleLessons(event, 'lessons8')">▼</div>
+          </li>
+        <ul id="lessons8" class="lesson-list">
+            <li class="lesson-item">1-сабақ: Алгоритм түрлері</li>
+            <li class="lesson-item">2-сабақ: Цикл түрлері</li>
+            <li class="lesson-item">3-сабақ: Массивтер</li>
+            <li class="lesson-item">4-сабақ: Процедура, функция, жолдар</li>
+            <li class="lesson-item">5-сабақ: Есептерді талдау</li>
+        </ul>
+        <li id="course9"  class="course-item locked" onclick="openCourse(false)">
+            <div class="course-info">
+                9. Бейнеконтент 🔒
+              <span class="subtext">1 сабақ</span>
+            </div>
+            <div class="toggle-icon" onclick="toggleLessons(event, 'lessons9')">▼</div>
+          </li>
+        <ul id="lessons9" class="lesson-list">
+            <li class="lesson-item">1-сабақ:Бейнемен жұмыс</li>
+        </ul>
+        <li id="course10"  class="course-item locked" onclick="openCourse(false)">
+            <div class="course-info">
+                10. Жасанды интелект 🔒
+              <span class="subtext">2 сабақ</span>
+            </div>
+            <div class="toggle-icon" onclick="toggleLessons(event, 'lessons10')">▼</div>
+          </li>
+        <ul id="lessons10" class="lesson-list">
+            <li class="lesson-item">1-сабақ: Жасанды интелект</li>
+            <li class="lesson-item">2-сабақ: Нейрондық желілер</li>
+        </ul>
+    </ul>
+        <br><br>
+  </div>
+<!-- Видеосабақтар бөлігі -->
+<br>
+<div class="video-section" style="display: none;">
+  <button id="back-btn">⬅   Артқа қайту</button>
+  <h2>Сабақ атауы</h2>
+  
+  
+
+  <iframe src="" 
+  width="640" height="360" 
+  frameborder="0" 
+  allow="autoplay; fullscreen; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+  
+
+  <!-- <iframe id="videoPlayer" width="560"
+  height="315"
+  src="https://www.youtube.com/embed/    ?rel=0&modestbranding=1&controls=1"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+
+  </iframe> -->
+
+  <div class="nav-buttons"></div>
+</div>
+<br><br><br><br>
+        </div>
+        </main>
+    </div>
+    <style>
+/*  */
+
+.course-item.locked {
+  opacity: 0.6;
+  cursor: not-allowed;
+} /* керек, себебі біз хабарлама көрсетеміз */
+.lesson-item.locked {
+  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: auto; /* керек, себебі біз хабарлама көрсетеміз */
+}
+.lesson-item.locked:hover {
+  background-color: #eee;
+}
+
+.toggle-icon {
+  font-size: 16px;
+  padding: 8px;
+  width: 32px;
+  height: 32px;
+  background-color: rgb(184, 212, 241);
+  border-radius: 50%; /* домалақ ету */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, background-color 0.3s;
+  cursor: pointer;
+}
+
+.toggle-icon:hover {
+  background-color: #007bff;
+}
+
+.rotated {
+  transform: rotate(180deg);
+}
+
+    .course-list-wrapper {
+      width: 600px;
+      margin: 0 auto;
+      font-family: sans-serif;
+    }
+    .course-item {
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  user-select: none;
+}
+  .course-item:hover {
+    background-color: #eaf3ff;
+    transform: translateY(-3px);
+    border-left: 6px solid #007bff;
+  }
+  .course-item span {
+    font-size: 14px;
+    color: #666;
+  }
+
+    .course-item span.subtext {
+      display: block;
+      font-weight: normal;
+      font-size: 14px;
+      color: gray;
+    }
+
+    .toggle-icon {
+      transition: transform 0.3s;
+    }
+
+    .rotated {
+      transform: rotate(180deg);
+    }
+
+    .lesson-list {
+      display: none;
+      margin-left: 20px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
+
+    .lesson-item {
+      background: #e6f0ff;
+      padding: 8px;
+      border-radius: 6px;
+      margin-top: 4px;
+      cursor: pointer;
+    }
+
+    .lesson-item:hover {
+      background: #cce0ff;
+    }
+
+    iframe {
+      width: 100%;
+      height: 400px;
+      margin-top: 20px;
+      border: none;
+    }
+/*  */
+     /* Видеосабақ бөлімін сәндеу */
+.video-section {
+  display: block;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 13px;
+  box-shadow: 0 4px 8px rgba(35, 3, 3, 0.1);
+  text-align:center;
+  
+}
+/* Видеосабақтың тақырыбын сәндеу */
+.video-section h2 {
+  font-size: 24px;
+  color: #1150c5;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Артқа қайту және келесі сабаққа өту батырмаларын сәндеу */
+.nav-buttons button {
+  background-color: #1150c5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 13px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+/* Батырма үстінде болғанда түсін өзгерту */
+.nav-buttons button:hover {
+  background-color: #0b3d91;
+}
+
+/* Артқа қайту батырмасының бөлек стилі */
+#back-btn {
+  background-color: #2d64ca;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: 13px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin-left: 0;
+}
+#prev-btn {
+    text-align:center;
+}
+#next-btn{
+    text-align:center;
+}
+
+/* Артқа қайту батырмасының үстінде болғанда түсін өзгерту */
+#back-btn:hover {
+  background-color: #0b3d91;
+}
+</style>   
+    <script src="index.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
