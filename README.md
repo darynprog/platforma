@@ -1,31 +1,34 @@
-# Platforma Website
+# Platforma веб-сайты
 
-## Project Description
-Platforma is a website project developed using HTML, CSS, and JavaScript. It contains multiple web pages and images.
+## Жоба туралы
+Бұл жоба HTML, CSS және JavaScript технологиялары арқылы жасалған веб-сайт болып табылады. Сайт бірнеше веб-беттен және суреттерден тұрады.
 
-## Project Structure
-- `index.html` — main entry page.
-- `glavny.html` — main website page.
-- `course.html` — course information page.
-- `script.js` — JavaScript functionality.
-- `index.js` — additional JavaScript file.
-- `style.css` — website styling.
-- `imgg/` — images used in the website.
+## Жобаның мақсаты
+Пайдаланушыларға қажетті ақпаратты ыңғайлы әрі түсінікті түрде ұсынатын веб-сайт жасау.
 
-## Technologies Used
-- HTML
-- CSS
-- JavaScript
-- Git
-- GitHub
+## Жоба құрылымы
+- `index.html` — сайттың негізгі кіру беті.
+- `glavny.html` — сайттың басты беті.
+- `course.html` — курстар туралы ақпарат беретін бет.
+- `style.css` — сайттың сыртқы көрінісін безендіретін файл.
+- `script.js` — сайттың интерактивті қызметтерін басқаратын файл.
+- `index.js` — JavaScript коды орналасқан қосымша файл.
+- `imgg/` — сайтта қолданылатын суреттер сақталған бума.
 
-## How to Run
-1. Download or clone the repository.
-2. Open the project folder in Visual Studio Code.
-3. Open `index.html` in a web browser.
+## Қолданылған технологиялар
+- HTML — веб-беттің құрылымын жасау үшін.
+- CSS — веб-беттің дизайнын безендіру үшін.
+- JavaScript — сайтқа интерактивті мүмкіндіктер қосу үшін.
+- Git — жобадағы өзгерістерді бақылау үшін.
+- GitHub — жобаны сақтау және топпен бірлесіп жұмыс істеу үшін.
 
-## Version Control
-Git and GitHub are used to manage project files, track changes, create branches, and collaborate.
+## Жобаны іске қосу
+1. Репозиторийді компьютерге жүктеу.
+2. Жоба бумасын Visual Studio Code бағдарламасында ашу.
+3. `index.html` файлын браузерде ашу.
 
-## Author
-Darynprog
+## Git және GitHub қолдану
+Жоба файлдарының өзгерістерін сақтау, commit жасау, branch құру, Pull Request ашу және өзгерістерді негізгі branch-пен біріктіру үшін Git және GitHub қолданылады.
+
+## Қорытынды
+Бұл жоба веб-сайт құру дағдыларын жетілдіруге және GitHub арқылы жобаны басқаруды үйренуге мүмкіндік береді.
