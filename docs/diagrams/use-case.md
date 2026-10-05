@@ -5,11 +5,17 @@ platforma/
 ├── index.html
 
 ├── glavny.html
+
 ├── course.html
+
 ├── script.js
+
 ├── index.js
+
 ├── style.css
+
 ├── imgg/
+
 └── docs/
     ├── requirements.md
     ├── use-case.md
