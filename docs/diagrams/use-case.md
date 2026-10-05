@@ -1,6 +1,9 @@
 platforma/
+
 ├── README.md
+
 ├── index.html
+
 ├── glavny.html
 ├── course.html
 ├── script.js
